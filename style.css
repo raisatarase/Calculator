@@ -1,1 +1,14 @@
+table {
+  border: 2px solid #d13965;
+  border-radius: 5px;
+  background-color: #feabc9;
+}
 
+td {
+  border: 1px solid #d13965;
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+  max-width: fit-content;
+  font-size: 60px;
+}

@@ -4,9 +4,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js"></script>
 </head>
 <body>
+<!--
+  1. function for: add, substract, multiply, divide
+  2. operate(operator, no1, no2) = create a function that take an operator,
+                                    and 2 no as parameters
+                                 = it has to call one of the above fct.
+  3. basic HTML Calc with buttons for digits, operators, equal, clear + display the result
+  4.the numbers that you type should be displayed on the display
+  5. store the input (each no typed) in variables
+  6. use floating no if necessary for the user
+  7. add backspace no if user want to unde typo
+  8. add keyboard support
+-->
+
+<table class="calculator">
+  <tr>
+    <td colspan="4">display</td>
+  </tr>
+  <tr>
+    <td colspan="3">clear</td>
+    <td>+</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td>,</td>
+    <td>0</td>
+    <td colspan="2">=</td>
+  </tr>
+</table>
 
 </body>
 </html>
